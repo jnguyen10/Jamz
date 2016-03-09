@@ -1,0 +1,6 @@
+framework module Pods_Jamz {
+  umbrella header "Pods-Jamz-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03162F6FBBFF4775606AFC6444A3C7BC /* onepassword-extension-light@3x~compact.png in Resources */ = {isa = PBXBuildFile; fileRef = 16E5FEB8A29BD2AD2569213504405062 /* onepassword-extension-light@3x~compact.png */; };
+		059F873D92D7CD979212EC29325597F0 /* ImageURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C9B879ADB37B65A4FA19751613061 /* ImageURLs.swift */; };
+		064983F828C081E0EFBD9EC9F60664D1 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F69B46C4050E82A518ED532F9F1C8AA /* Track.swift */; };
+		07CAFA798732E9A28892E8D39C03453F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341FC172C25A866D8B0D0A0680930F6E /* AVFoundation.framework */; };
+		0A49140678241829867000A84E017BF8 /* onepassword-toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 54A2C5B85C9EB9013A56A9EBEE2B31F1 /* onepassword-toolbar.png */; };
+		0CA67E92FACBD3C62B97EABC0B4E025E /* SearchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B2CD160AA16063697F4C2F38191E6C /* SearchQuery.swift */; };
+		0F83E9950D54B3325FBCD9102BA9130B /* onepassword-navbar-light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA362CC78004BFFBEE6659D8A973675 /* onepassword-navbar-light@2x.png */; };
+		0FBB724B8B2A45186D369029D8ACDB44 /* onepassword-extension@2x~regular.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAB3555784A9B65459EC95616D7117D /* onepassword-extension@2x~regular.png */; };
+		18061D4108D27DFB4F7771249D43EA9E /* OnePasswordExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173FD23D8E87AAD7B76BB7591D3E0701 /* OnePasswordExtension.framework */; };
+		1EBE02F16629B528CB5926AA066246E5 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0813CCA58C37528B6EDF79A9FA2D0B /* Request.swift */; };
+		22D6F43B9B72E5A4D250A6F5A48437D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCF3C81532FCA9726BBE30AC0CF299 /* Foundation.framework */; };
+		2487D9DAFF7FE4E943953D6E3580D422 /* Jukebox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C776A34C16E9753D1A99C1EC28E210 /* Jukebox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DE4A2319C38BC2CC7081CD9C954647E /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C0BA97AC211C05C175E59241962C0B /* Enums.swift */; };
+		31998335D5F2B89DE7EA7F91BBE73DE0 /* PlaylistRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E1F42A6D48BF1E0FCCAE0726252DA3 /* PlaylistRequest.swift */; };
+		3487A931F7EBDEB928B6B2C1C7F6D185 /* UICKeyChainStore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE1CAF80E2D5BA4D8A4F3F94A7A1571 /* UICKeyChainStore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		410EA55906BCBD2E9BCB3746D0BB987B /* onepassword-extension-light~regular.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F15EC2DE808466759979FC32EDD88 /* onepassword-extension-light~regular.png */; };
+		424CD57EF0A830583695A09076F34686 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485EAFFC476E110C622C2809298338FA /* User.swift */; };
+		434D9098FF0582F0FE5114A7E56EA4A6 /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE4CE4E6EC7057303DA6E71D53A07B0 /* UICKeyChainStore.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5BFDD4A46F87D54A47D92ABF2F894F6C /* onepassword-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2103303507AE4B27768971EDB72ADFE8 /* onepassword-button@2x.png */; };
+		5C33495C74FBC9D432B795F9ACC9DFF6 /* onepassword-extension-light@2x~regular.png in Resources */ = {isa = PBXBuildFile; fileRef = 75462E96B104F637E9605C1CD45627A8 /* onepassword-extension-light@2x~regular.png */; };
+		5C6B42BC007CE112E798727FE31BD878 /* onepassword-button-light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67F4B6C8949AC3BA54CC7869A62C0010 /* onepassword-button-light@2x.png */; };
+		5EA4528128AC6CE7FFB87BC8CED7A67A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB3370A610AADD81A299D4A93628FC /* UIKit.framework */; };
+		6136D48095CD2C2B623ABD9037D1AECF /* Pods-Jamz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A674698DC1FA65FB800AE0BC5751FC8B /* Pods-Jamz-dummy.m */; };
+		62E146B96CC76C574C55174CB934C049 /* 1PasswordExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA985780E5EF2F82C5E3B32C3CE2F2B7 /* 1PasswordExtension-dummy.m */; };
+		660D72B8915E0A997695B35FA4C8A99A /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12907CA9F7B1AA7D1C7ECC049A8EF8 /* APIResponse.swift */; };
+		69C3E31732A84B840529DD362F2F3E2F /* onepassword-button-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 860A37BC5C6261634F452426B8AAA455 /* onepassword-button-light.png */; };
+		6DE8C1B9466C946DB1F1EB846C18E9B6 /* JukeboxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216BB73EC378925872C7926D3C5C96 /* JukeboxItem.swift */; };
+		719D93DEAF3C86E9126164BA373B944A /* SoundcloudWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E2638109F01E8377590395202C58D1 /* SoundcloudWebViewController.swift */; };
+		76A390F4C3B9A6DCF5BCB552AB906408 /* Soundcloud-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC713AB9140BE2180CB7062298FC7EF /* Soundcloud-dummy.m */; };
+		78220BB6F390D40E16B2E890F86FB93F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCF3C81532FCA9726BBE30AC0CF299 /* Foundation.framework */; };
+		7EAE3B004E8867CB16ECA3BA219D54B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCF3C81532FCA9726BBE30AC0CF299 /* Foundation.framework */; };
+		8161C5BAC6975FCDF19BD18736CBE107 /* onepassword-toolbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6AD2E7214AFE03343EBA79CA1AF386A /* onepassword-toolbar@3x.png */; };
+		81FB4787BB9DC7A6793401091F545360 /* onepassword-navbar-light@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D64032374ECA7090DF2762C22E7521A /* onepassword-navbar-light@3x.png */; };
+		84170A779E7E5BFB8711667B43522EDA /* onepassword-extension-light~compact.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA9D586960FAF53F2E849BACB1B4A5C /* onepassword-extension-light~compact.png */; };
+		852C606F9EB5F648BA26C45F8F60FB6A /* Soundcloud-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A602D24DA6D524A3A87CB5730700D0 /* Soundcloud-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8968C07D6412C29A06CDD21E176A8790 /* 1Password.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E7ECF64E7118E0A2511D750A026BA6 /* 1Password.xcassets */; };
+		8A67A693A3F35339210C58212D50067F /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E63251B371127F603CF8D5AD9927B /* Playlist.swift */; };
+		9670ED988B97C6B19B7D44C20EFF6830 /* UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57B06A6EE1AA49F9837BB56D5712E7 /* UserRequest.swift */; };
+		989BA4DFB623F61BD2185D764EE1E054 /* UICKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AFB7CE79541ED06A771F84857A92042 /* UICKeyChainStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DE39E915B1BD1524E76A6D46E552776 /* onepassword-extension~compact.png in Resources */ = {isa = PBXBuildFile; fileRef = 5424FDE1A083262A1916380EAF2EA795 /* onepassword-extension~compact.png */; };
+		A07611C3689C772C498992BD7905E761 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB581B4F73FF16037D50593D2CF6EA /* DictionaryExtension.swift */; };
+		A35D0CCE9F9550EB9DD5BAFBC36F5F13 /* Soundcloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07CB46932EDAB792D7D2D669611D0F /* Soundcloud.swift */; };
+		A39F57186D048200C5F590829521C1DE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8962FEEA3B77C728DA363C55CC80A930 /* MediaPlayer.framework */; };
+		A7E8FB4E56812F86EC0AD7535003E6D3 /* onepassword-toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED607F3A53CF1A59A34943F1A7D8873 /* onepassword-toolbar@2x.png */; };
+		A9C8BBD485B6AE706640E9EA9249D39B /* onepassword-navbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86BE112CBE293B7FA27223C7286642A7 /* onepassword-navbar@3x.png */; };
+		AE4B151EAF5003685962E5601C55F58A /* OnePasswordExtensionResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA0205697AE137A458CA02CA056537C6 /* OnePasswordExtensionResources.bundle */; };
+		AF43BD13810A278AA11F311CDFFB0482 /* Jukebox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE000050189AD4127BB39BABB2D62BC /* Jukebox.swift */; };
+		B018368A3003BBC1A422FE6B8829397F /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BBE56F51EC21D949C8D827B9F20C41 /* Comment.swift */; };
+		B11B7A22C629F8C1136E77515B2CDA02 /* onepassword-extension@2x~compact.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F77C930F40BEAAD634AF547A2E65CB /* onepassword-extension@2x~compact.png */; };
+		B54289A84A48604EE38881A0E071AD48 /* onepassword-extension~regular.png in Resources */ = {isa = PBXBuildFile; fileRef = B94144D58B3569123D49C098E7E896DE /* onepassword-extension~regular.png */; };
+		B61B8ACD7135223233EA574580E3B040 /* onepassword-toolbar-light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 885D0EA35361ABD5C625013C574F12CF /* onepassword-toolbar-light@2x.png */; };
+		BA9131D2E6BE6FDA0449205E59C5DF8F /* UICKeyChainStore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5183F60F1D26CF06A0A149956B4929F6 /* UICKeyChainStore-dummy.m */; };
+		C17E8624E2C4964440191C5A6F37F324 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7406B2B5C280E446C55ACD93C119F7 /* StringExtension.swift */; };
+		C32CF4DD337DE89B987C6119D8E74710 /* onepassword-navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CC547325144825F8F592A699D2593 /* onepassword-navbar@2x.png */; };
+		CA055F7C7C352B1A1E177863F0AF11B6 /* onepassword-navbar-light.png in Resources */ = {isa = PBXBuildFile; fileRef = FA45FD48EB2B53DDC48D906C2AD5A454 /* onepassword-navbar-light.png */; };
+		CB4A7A09049C12437382BB51FB2B519A /* onepassword-toolbar-light@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D3B3FB201016819108C263E12D6041 /* onepassword-toolbar-light@3x.png */; };
+		CB4A8B7369D53DC365EABB49C9965467 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3483B643E1D1F1DCC7C48C1E4AF971C5 /* App.swift */; };
+		CC5FEAEB89DE59D36D674D0E9D52428C /* onepassword-toolbar-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6E80639D13D96FFCC9BF0DE40EEEA9 /* onepassword-toolbar-light.png */; };
+		CEAF472964979C3218CF0AFB20703306 /* onepassword-button.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D0BBA5B01DA5DCB0A5028288EFF0E6 /* onepassword-button.png */; };
+		CED79DE801DE133B9FC1E7716D65EBF5 /* onepassword-button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B15E48557480D50D1720AC09DBD7517 /* onepassword-button@3x.png */; };
+		D1C921457D79AB05D05690203D6580C3 /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43EB4914C167E3581F56A583530F426 /* UICKeyChainStore.framework */; };
+		D42999A5684D3281051C1F65897A1126 /* TrackRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F45A51CAFD98CFEEF69E3460052CBD /* TrackRequest.swift */; };
+		D9011BBFD2412EF953E6EAA0042C5956 /* Jukebox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F91BB12C9EBCDD37A20F18B3EFCFF2E /* Jukebox-dummy.m */; };
+		D926FB7FB8DD8730060886BAF24CA93D /* Jukebox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C45141DB21BA9112F500C224F6392977 /* Jukebox.bundle */; };
+		DF0E4A2B45545137FB5294B838EE6A49 /* onepassword-navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B13BB7B0AA7FC6E6BDB5DC7719C8B65 /* onepassword-navbar.png */; };
+		E1AF46A8368350634CE945BA80A23687 /* Pods-Jamz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAA1243C256A083D01EAAB7B3D7A713 /* Pods-Jamz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35C17E5C254DD854CDB3A05B1F3A98A /* onepassword-extension@3x~compact.png in Resources */ = {isa = PBXBuildFile; fileRef = F9DA9AA122382F93B5F015F551B45B78 /* onepassword-extension@3x~compact.png */; };
+		E35EA1D8888E4E09B38F11626329D650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCF3C81532FCA9726BBE30AC0CF299 /* Foundation.framework */; };
+		E6C522DC0E419BDB186C3FFE5A16D38F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0ADEBA2D5E45C06B432AB32713452F5 /* Security.framework */; };
+		E747D3457DA2D0D95C5C030983663674 /* onepassword-button-light@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A38899111F1E441B83AF2BD0AE47455 /* onepassword-button-light@3x.png */; };
+		E7C7A7317124A1FEA09C8DFB95FACE7B /* OnePasswordExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D602DE62C8DA4FDCE6715B8471F42CC1 /* OnePasswordExtension.m */; };
+		EA5019E6F9998E6BD21793807BA3AC40 /* NSURLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD5940EB647E7A3A97705B72B8E5016 /* NSURLExtension.swift */; };
+		EAE970E887C03DE9D99C0E18036B6FA9 /* OnePasswordExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F1EF5D24AF0C4E95BB6FC69D4D3C76 /* OnePasswordExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3E5C62D72C98FEDEDA619582108B1D7 /* onepassword-extension-light@2x~compact.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EA26FCFEEB78499A5E573B03CF6AEE3 /* onepassword-extension-light@2x~compact.png */; };
+		F6B2D1720CCF6A5A35163A64C96154CA /* 1PasswordExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D19477CE2BCF31E283A6385EFCF275B2 /* 1PasswordExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBB0826C473615DA3139DC035B9D4506 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCF3C81532FCA9726BBE30AC0CF299 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25DAD266284F8D445C0BB60A2F77950A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8B57B89BC28E74DBA035283E73E0107;
+			remoteInfo = 1PasswordExtension;
+		};
+		6984F60C90A2E9A87A1EF94713DB5FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8B57B89BC28E74DBA035283E73E0107;
+			remoteInfo = 1PasswordExtension;
+		};
+		921AB2F74EA95232D72B0C59252E2B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF62A25D3E480238C0D473193AB70325;
+			remoteInfo = "1PasswordExtension-OnePasswordExtensionResources";
+		};
+		AD429E31172FA39CB8988F44607599D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 914F2D3BE90F614A79B5AB1465E3CB54;
+			remoteInfo = Jukebox;
+		};
+		AF4731718B139A7626CFBC1BC8925035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9905F7BE3F9DFE2176E1141CF8E8BEE;
+			remoteInfo = UICKeyChainStore;
+		};
+		B79108ED96D1A0F19EA18860A4281573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19694CEAB471DC07D8CB4BFB13CACCD;
+			remoteInfo = Soundcloud;
+		};
+		C9712C482C056463A252EC756A806954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8755411FBEB5C88938F94EFEB42DF28;
+			remoteInfo = "Jukebox-Jukebox";
+		};
+		E1A6DAA41F08612FBF23698F720BA43C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9905F7BE3F9DFE2176E1141CF8E8BEE;
+			remoteInfo = UICKeyChainStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E2638109F01E8377590395202C58D1 /* SoundcloudWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundcloudWebViewController.swift; path = sources/SoundcloudSDK/views/SoundcloudWebViewController.swift; sourceTree = "<group>"; };
+		03B2CD160AA16063697F4C2F38191E6C /* SearchQuery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchQuery.swift; path = sources/SoundcloudSDK/model/SearchQuery.swift; sourceTree = "<group>"; };
+		05EB7DA8FC27C63D7F516451B6F6C8CE /* Soundcloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Soundcloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B13BB7B0AA7FC6E6BDB5DC7719C8B65 /* onepassword-navbar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-navbar.png"; path = "1Password.xcassets/onepassword-navbar.imageset/onepassword-navbar.png"; sourceTree = "<group>"; };
+		0C12907CA9F7B1AA7D1C7ECC049A8EF8 /* APIResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIResponse.swift; path = sources/SoundcloudSDK/model/APIResponse.swift; sourceTree = "<group>"; };
+		0F7D58B42F204ACA8A26EEBE78BE72A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C0BA97AC211C05C175E59241962C0B /* Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = sources/SoundcloudSDK/model/Enums.swift; sourceTree = "<group>"; };
+		16E5FEB8A29BD2AD2569213504405062 /* onepassword-extension-light@3x~compact.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension-light@3x~compact.png"; path = "1Password.xcassets/onepassword-extension-light.imageset/onepassword-extension-light@3x~compact.png"; sourceTree = "<group>"; };
+		173FD23D8E87AAD7B76BB7591D3E0701 /* OnePasswordExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnePasswordExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2103303507AE4B27768971EDB72ADFE8 /* onepassword-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-button@2x.png"; path = "1Password.xcassets/onepassword-button.imageset/onepassword-button@2x.png"; sourceTree = "<group>"; };
+		259582E88612D9FB7D3690362D8A40DE /* 1PasswordExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = 1PasswordExtension.modulemap; sourceTree = "<group>"; };
+		25AE586D8BCC9C0C5A60F98F409B247A /* Jukebox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Jukebox.xcconfig; sourceTree = "<group>"; };
+		25C266928F0DF615B916F32840F32D6A /* OnePasswordExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnePasswordExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		284C9B879ADB37B65A4FA19751613061 /* ImageURLs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageURLs.swift; path = sources/SoundcloudSDK/model/ImageURLs.swift; sourceTree = "<group>"; };
+		28877D09FFC492ABC17820C9F5A3E1DB /* Pods-Jamz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Jamz.modulemap"; sourceTree = "<group>"; };
+		293A441D5886311744B668397BE39F86 /* Pods-Jamz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Jamz-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C216BB73EC378925872C7926D3C5C96 /* JukeboxItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JukeboxItem.swift; path = Pod/Classes/JukeboxItem.swift; sourceTree = "<group>"; };
+		2F69B46C4050E82A518ED532F9F1C8AA /* Track.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Track.swift; path = sources/SoundcloudSDK/model/Track.swift; sourceTree = "<group>"; };
+		341FC172C25A866D8B0D0A0680930F6E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		3483B643E1D1F1DCC7C48C1E4AF971C5 /* App.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = App.swift; path = sources/SoundcloudSDK/model/App.swift; sourceTree = "<group>"; };
+		34C232B9A4CB4B4B997BFD85BEBA2CC1 /* Pods-Jamz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jamz.release.xcconfig"; sourceTree = "<group>"; };
+		37BBE56F51EC21D949C8D827B9F20C41 /* Comment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = sources/SoundcloudSDK/model/Comment.swift; sourceTree = "<group>"; };
+		3AFB7CE79541ED06A771F84857A92042 /* UICKeyChainStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICKeyChainStore.h; path = Lib/UICKeyChainStore/UICKeyChainStore.h; sourceTree = "<group>"; };
+		45C137F93585626EAB6B88073AB9CF34 /* Soundcloud-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Soundcloud-prefix.pch"; sourceTree = "<group>"; };
+		47EB13AA032F76EAB541F77C04F3EFD8 /* UICKeyChainStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UICKeyChainStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		485EAFFC476E110C622C2809298338FA /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = User.swift; path = sources/SoundcloudSDK/model/User.swift; sourceTree = "<group>"; };
+		4B1603BA99D5C8E4E233F28931BE4AA6 /* Soundcloud.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Soundcloud.xcconfig; sourceTree = "<group>"; };
+		4D64032374ECA7090DF2762C22E7521A /* onepassword-navbar-light@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-navbar-light@3x.png"; path = "1Password.xcassets/onepassword-navbar-light.imageset/onepassword-navbar-light@3x.png"; sourceTree = "<group>"; };
+		4DE000050189AD4127BB39BABB2D62BC /* Jukebox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Jukebox.swift; path = Pod/Classes/Jukebox.swift; sourceTree = "<group>"; };
+		4E07CB46932EDAB792D7D2D669611D0F /* Soundcloud.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Soundcloud.swift; path = sources/SoundcloudSDK/soundcloud/Soundcloud.swift; sourceTree = "<group>"; };
+		4EA26FCFEEB78499A5E573B03CF6AEE3 /* onepassword-extension-light@2x~compact.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension-light@2x~compact.png"; path = "1Password.xcassets/onepassword-extension-light.imageset/onepassword-extension-light@2x~compact.png"; sourceTree = "<group>"; };
+		4F91BB12C9EBCDD37A20F18B3EFCFF2E /* Jukebox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Jukebox-dummy.m"; sourceTree = "<group>"; };
+		5183F60F1D26CF06A0A149956B4929F6 /* UICKeyChainStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICKeyChainStore-dummy.m"; sourceTree = "<group>"; };
+		5424FDE1A083262A1916380EAF2EA795 /* onepassword-extension~compact.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension~compact.png"; path = "1Password.xcassets/onepassword-extension.imageset/onepassword-extension~compact.png"; sourceTree = "<group>"; };
+		54A2C5B85C9EB9013A56A9EBEE2B31F1 /* onepassword-toolbar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar.png"; path = "1Password.xcassets/onepassword-toolbar.imageset/onepassword-toolbar.png"; sourceTree = "<group>"; };
+		564CC547325144825F8F592A699D2593 /* onepassword-navbar@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-navbar@2x.png"; path = "1Password.xcassets/onepassword-navbar.imageset/onepassword-navbar@2x.png"; sourceTree = "<group>"; };
+		58D3B3FB201016819108C263E12D6041 /* onepassword-toolbar-light@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar-light@3x.png"; path = "1Password.xcassets/onepassword-toolbar-light.imageset/onepassword-toolbar-light@3x.png"; sourceTree = "<group>"; };
+		5A38899111F1E441B83AF2BD0AE47455 /* onepassword-button-light@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-button-light@3x.png"; path = "1Password.xcassets/onepassword-button-light.imageset/onepassword-button-light@3x.png"; sourceTree = "<group>"; };
+		5CD5940EB647E7A3A97705B72B8E5016 /* NSURLExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSURLExtension.swift; path = sources/SoundcloudSDK/extension/NSURLExtension.swift; sourceTree = "<group>"; };
+		5FAA1243C256A083D01EAAB7B3D7A713 /* Pods-Jamz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Jamz-umbrella.h"; sourceTree = "<group>"; };
+		62AE64B99907C09B879F8A70C8FAB3D9 /* 1PasswordExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = 1PasswordExtension.xcconfig; sourceTree = "<group>"; };
+		631F15EC2DE808466759979FC32EDD88 /* onepassword-extension-light~regular.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension-light~regular.png"; path = "1Password.xcassets/onepassword-extension-light.imageset/onepassword-extension-light~regular.png"; sourceTree = "<group>"; };
+		67F4B6C8949AC3BA54CC7869A62C0010 /* onepassword-button-light@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-button-light@2x.png"; path = "1Password.xcassets/onepassword-button-light.imageset/onepassword-button-light@2x.png"; sourceTree = "<group>"; };
+		6B15E48557480D50D1720AC09DBD7517 /* onepassword-button@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-button@3x.png"; path = "1Password.xcassets/onepassword-button.imageset/onepassword-button@3x.png"; sourceTree = "<group>"; };
+		6BE1CAF80E2D5BA4D8A4F3F94A7A1571 /* UICKeyChainStore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICKeyChainStore-umbrella.h"; sourceTree = "<group>"; };
+		75462E96B104F637E9605C1CD45627A8 /* onepassword-extension-light@2x~regular.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension-light@2x~regular.png"; path = "1Password.xcassets/onepassword-extension-light.imageset/onepassword-extension-light@2x~regular.png"; sourceTree = "<group>"; };
+		77A602D24DA6D524A3A87CB5730700D0 /* Soundcloud-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Soundcloud-umbrella.h"; sourceTree = "<group>"; };
+		7B302344701E88DFF49D3DC155046686 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B7406B2B5C280E446C55ACD93C119F7 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = sources/SoundcloudSDK/extension/StringExtension.swift; sourceTree = "<group>"; };
+		7D33DE2A9B7768104E27F3B9E6482DED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C776A34C16E9753D1A99C1EC28E210 /* Jukebox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Jukebox-umbrella.h"; sourceTree = "<group>"; };
+		860A37BC5C6261634F452426B8AAA455 /* onepassword-button-light.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-button-light.png"; path = "1Password.xcassets/onepassword-button-light.imageset/onepassword-button-light.png"; sourceTree = "<group>"; };
+		86BE112CBE293B7FA27223C7286642A7 /* onepassword-navbar@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-navbar@3x.png"; path = "1Password.xcassets/onepassword-navbar.imageset/onepassword-navbar@3x.png"; sourceTree = "<group>"; };
+		885D0EA35361ABD5C625013C574F12CF /* onepassword-toolbar-light@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar-light@2x.png"; path = "1Password.xcassets/onepassword-toolbar-light.imageset/onepassword-toolbar-light@2x.png"; sourceTree = "<group>"; };
+		8962FEEA3B77C728DA363C55CC80A930 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		8B6E80639D13D96FFCC9BF0DE40EEEA9 /* onepassword-toolbar-light.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar-light.png"; path = "1Password.xcassets/onepassword-toolbar-light.imageset/onepassword-toolbar-light.png"; sourceTree = "<group>"; };
+		8E57B06A6EE1AA49F9837BB56D5712E7 /* UserRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserRequest.swift; path = sources/SoundcloudSDK/request/UserRequest.swift; sourceTree = "<group>"; };
+		8E8F777F810B5C0723002151C5F5667E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F59A65FB10B6BE8B96189F5A94EC38B /* UICKeyChainStore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICKeyChainStore.xcconfig; sourceTree = "<group>"; };
+		991E46F3D312ADE642C4092AFA5EB8BA /* Jukebox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Jukebox.modulemap; sourceTree = "<group>"; };
+		9E0813CCA58C37528B6EDF79A9FA2D0B /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = sources/SoundcloudSDK/request/Request.swift; sourceTree = "<group>"; };
+		A1E1F42A6D48BF1E0FCCAE0726252DA3 /* PlaylistRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaylistRequest.swift; path = sources/SoundcloudSDK/request/PlaylistRequest.swift; sourceTree = "<group>"; };
+		A1F77C930F40BEAAD634AF547A2E65CB /* onepassword-extension@2x~compact.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension@2x~compact.png"; path = "1Password.xcassets/onepassword-extension.imageset/onepassword-extension@2x~compact.png"; sourceTree = "<group>"; };
+		A421248E4C22E8C532B68B7790324275 /* Soundcloud.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Soundcloud.modulemap; sourceTree = "<group>"; };
+		A425877F4280AF3B70A7CDFFC14E1DD6 /* Pods-Jamz-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jamz-resources.sh"; sourceTree = "<group>"; };
+		A674698DC1FA65FB800AE0BC5751FC8B /* Pods-Jamz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Jamz-dummy.m"; sourceTree = "<group>"; };
+		A6AD2E7214AFE03343EBA79CA1AF386A /* onepassword-toolbar@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar@3x.png"; path = "1Password.xcassets/onepassword-toolbar.imageset/onepassword-toolbar@3x.png"; sourceTree = "<group>"; };
+		A9D0BBA5B01DA5DCB0A5028288EFF0E6 /* onepassword-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-button.png"; path = "1Password.xcassets/onepassword-button.imageset/onepassword-button.png"; sourceTree = "<group>"; };
+		AA269C141A0E8284B23B0DBC4E997EE9 /* UICKeyChainStore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UICKeyChainStore.modulemap; sourceTree = "<group>"; };
+		ACA362CC78004BFFBEE6659D8A973675 /* onepassword-navbar-light@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-navbar-light@2x.png"; path = "1Password.xcassets/onepassword-navbar-light.imageset/onepassword-navbar-light@2x.png"; sourceTree = "<group>"; };
+		B0ADEBA2D5E45C06B432AB32713452F5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		B2F1EF5D24AF0C4E95BB6FC69D4D3C76 /* OnePasswordExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OnePasswordExtension.h; sourceTree = "<group>"; };
+		B94144D58B3569123D49C098E7E896DE /* onepassword-extension~regular.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension~regular.png"; path = "1Password.xcassets/onepassword-extension.imageset/onepassword-extension~regular.png"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDF7598B34E0D60DB49CB545CCB705D9 /* Pods_Jamz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jamz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F45A51CAFD98CFEEF69E3460052CBD /* TrackRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackRequest.swift; path = sources/SoundcloudSDK/request/TrackRequest.swift; sourceTree = "<group>"; };
+		C38DB53ED80A2146CC62B9451B1CC593 /* Pods-Jamz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Jamz-acknowledgements.plist"; sourceTree = "<group>"; };
+		C45141DB21BA9112F500C224F6392977 /* Jukebox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jukebox.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BB3370A610AADD81A299D4A93628FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CDAB3555784A9B65459EC95616D7117D /* onepassword-extension@2x~regular.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension@2x~regular.png"; path = "1Password.xcassets/onepassword-extension.imageset/onepassword-extension@2x~regular.png"; sourceTree = "<group>"; };
+		CEA9D586960FAF53F2E849BACB1B4A5C /* onepassword-extension-light~compact.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension-light~compact.png"; path = "1Password.xcassets/onepassword-extension-light.imageset/onepassword-extension-light~compact.png"; sourceTree = "<group>"; };
+		CEC713AB9140BE2180CB7062298FC7EF /* Soundcloud-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Soundcloud-dummy.m"; sourceTree = "<group>"; };
+		CED607F3A53CF1A59A34943F1A7D8873 /* onepassword-toolbar@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-toolbar@2x.png"; path = "1Password.xcassets/onepassword-toolbar.imageset/onepassword-toolbar@2x.png"; sourceTree = "<group>"; };
+		D19477CE2BCF31E283A6385EFCF275B2 /* 1PasswordExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "1PasswordExtension-umbrella.h"; sourceTree = "<group>"; };
+		D35BBDA66D0D907E7E9FB342BC32CB75 /* UICKeyChainStore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICKeyChainStore-prefix.pch"; sourceTree = "<group>"; };
+		D5B85BFD61077D0DF92B7DB3D7AB1F11 /* Pods-Jamz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jamz.debug.xcconfig"; sourceTree = "<group>"; };
+		D602DE62C8DA4FDCE6715B8471F42CC1 /* OnePasswordExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OnePasswordExtension.m; sourceTree = "<group>"; };
+		D7CCE369D209CC8113FBADE7BBE5C354 /* Jukebox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jukebox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCCF3C81532FCA9726BBE30AC0CF299 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E2778D36EA964317110C01396937F9C5 /* 1PasswordExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "1PasswordExtension-prefix.pch"; sourceTree = "<group>"; };
+		E43EB4914C167E3581F56A583530F426 /* UICKeyChainStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UICKeyChainStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E7ECF64E7118E0A2511D750A026BA6 /* 1Password.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = 1Password.xcassets; sourceTree = "<group>"; };
+		EA985780E5EF2F82C5E3B32C3CE2F2B7 /* 1PasswordExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "1PasswordExtension-dummy.m"; sourceTree = "<group>"; };
+		EBBB581B4F73FF16037D50593D2CF6EA /* DictionaryExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtension.swift; path = sources/SoundcloudSDK/extension/DictionaryExtension.swift; sourceTree = "<group>"; };
+		EC05532D4CE278314139CFC1806F8D2B /* Pods-Jamz-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jamz-frameworks.sh"; sourceTree = "<group>"; };
+		F25001C3844056052D7B7D8F1CACE116 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30E63251B371127F603CF8D5AD9927B /* Playlist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Playlist.swift; path = sources/SoundcloudSDK/model/Playlist.swift; sourceTree = "<group>"; };
+		F9DA9AA122382F93B5F015F551B45B78 /* onepassword-extension@3x~compact.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-extension@3x~compact.png"; path = "1Password.xcassets/onepassword-extension.imageset/onepassword-extension@3x~compact.png"; sourceTree = "<group>"; };
+		FA0205697AE137A458CA02CA056537C6 /* OnePasswordExtensionResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePasswordExtensionResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA45FD48EB2B53DDC48D906C2AD5A454 /* onepassword-navbar-light.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "onepassword-navbar-light.png"; path = "1Password.xcassets/onepassword-navbar-light.imageset/onepassword-navbar-light.png"; sourceTree = "<group>"; };
+		FC3F4D42D0AD34B1DD664E3E4D9DECE4 /* Jukebox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Jukebox-prefix.pch"; sourceTree = "<group>"; };
+		FCE4CE4E6EC7057303DA6E71D53A07B0 /* UICKeyChainStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UICKeyChainStore.m; path = Lib/UICKeyChainStore/UICKeyChainStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F61D7C8769CEC9BF6BFD9F0451083B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CAFA798732E9A28892E8D39C03453F /* AVFoundation.framework in Frameworks */,
+				E35EA1D8888E4E09B38F11626329D650 /* Foundation.framework in Frameworks */,
+				A39F57186D048200C5F590829521C1DE /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EF961F251687F2D28E7E7F6A52456C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207418FD658FFAECDBB8D5279D02CDE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB0826C473615DA3139DC035B9D4506 /* Foundation.framework in Frameworks */,
+				E6C522DC0E419BDB186C3FFE5A16D38F /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4433198D73D5B33BB2F9DB907452E52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D6F43B9B72E5A4D250A6F5A48437D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A45245E210A54E5E75F90FC7270D094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78220BB6F390D40E16B2E890F86FB93F /* Foundation.framework in Frameworks */,
+				18061D4108D27DFB4F7771249D43EA9E /* OnePasswordExtension.framework in Frameworks */,
+				D1C921457D79AB05D05690203D6580C3 /* UICKeyChainStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB17F1A03CC9CEE99918B6FABD9AACF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45CFA9B2E9B95CFED4BAE62A3B20AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAE3B004E8867CB16ECA3BA219D54B2 /* Foundation.framework in Frameworks */,
+				5EA4528128AC6CE7FFB87BC8CED7A67A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F74448C4C1618B55703E7CC60DDACE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E8F777F810B5C0723002151C5F5667E /* Info.plist */,
+				A421248E4C22E8C532B68B7790324275 /* Soundcloud.modulemap */,
+				4B1603BA99D5C8E4E233F28931BE4AA6 /* Soundcloud.xcconfig */,
+				CEC713AB9140BE2180CB7062298FC7EF /* Soundcloud-dummy.m */,
+				45C137F93585626EAB6B88073AB9CF34 /* Soundcloud-prefix.pch */,
+				77A602D24DA6D524A3A87CB5730700D0 /* Soundcloud-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Soundcloud";
+			sourceTree = "<group>";
+		};
+		0AE049AE24E5584D3C57857EDDA324F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				173FD23D8E87AAD7B76BB7591D3E0701 /* OnePasswordExtension.framework */,
+				E43EB4914C167E3581F56A583530F426 /* UICKeyChainStore.framework */,
+				D821F5CA4776F803B4C08FB3378B3DCB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21AB72AB326C15F1B5E0AD4658FF4FFC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D33DE2A9B7768104E27F3B9E6482DED /* Info.plist */,
+				991E46F3D312ADE642C4092AFA5EB8BA /* Jukebox.modulemap */,
+				25AE586D8BCC9C0C5A60F98F409B247A /* Jukebox.xcconfig */,
+				4F91BB12C9EBCDD37A20F18B3EFCFF2E /* Jukebox-dummy.m */,
+				FC3F4D42D0AD34B1DD664E3E4D9DECE4 /* Jukebox-prefix.pch */,
+				83C776A34C16E9753D1A99C1EC28E210 /* Jukebox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Jukebox";
+			sourceTree = "<group>";
+		};
+		2C2E784A8D0C7C215707E74E7880A3CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F25001C3844056052D7B7D8F1CACE116 /* Info.plist */,
+				AA269C141A0E8284B23B0DBC4E997EE9 /* UICKeyChainStore.modulemap */,
+				8F59A65FB10B6BE8B96189F5A94EC38B /* UICKeyChainStore.xcconfig */,
+				5183F60F1D26CF06A0A149956B4929F6 /* UICKeyChainStore-dummy.m */,
+				D35BBDA66D0D907E7E9FB342BC32CB75 /* UICKeyChainStore-prefix.pch */,
+				6BE1CAF80E2D5BA4D8A4F3F94A7A1571 /* UICKeyChainStore-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICKeyChainStore";
+			sourceTree = "<group>";
+		};
+		5CCE15BBE2D90C009C063E07C1BD98D3 /* 1PasswordExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B2F1EF5D24AF0C4E95BB6FC69D4D3C76 /* OnePasswordExtension.h */,
+				D602DE62C8DA4FDCE6715B8471F42CC1 /* OnePasswordExtension.m */,
+				6D5BFD47842E4CC56C2594AE4092BE89 /* Resources */,
+				866642F7D84329CF4B715BD11FC8E801 /* Support Files */,
+			);
+			path = 1PasswordExtension;
+			sourceTree = "<group>";
+		};
+		6D5BFD47842E4CC56C2594AE4092BE89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8E7ECF64E7118E0A2511D750A026BA6 /* 1Password.xcassets */,
+				A9D0BBA5B01DA5DCB0A5028288EFF0E6 /* onepassword-button.png */,
+				860A37BC5C6261634F452426B8AAA455 /* onepassword-button-light.png */,
+				67F4B6C8949AC3BA54CC7869A62C0010 /* onepassword-button-light@2x.png */,
+				5A38899111F1E441B83AF2BD0AE47455 /* onepassword-button-light@3x.png */,
+				2103303507AE4B27768971EDB72ADFE8 /* onepassword-button@2x.png */,
+				6B15E48557480D50D1720AC09DBD7517 /* onepassword-button@3x.png */,
+				4EA26FCFEEB78499A5E573B03CF6AEE3 /* onepassword-extension-light@2x~compact.png */,
+				75462E96B104F637E9605C1CD45627A8 /* onepassword-extension-light@2x~regular.png */,
+				16E5FEB8A29BD2AD2569213504405062 /* onepassword-extension-light@3x~compact.png */,
+				CEA9D586960FAF53F2E849BACB1B4A5C /* onepassword-extension-light~compact.png */,
+				631F15EC2DE808466759979FC32EDD88 /* onepassword-extension-light~regular.png */,
+				A1F77C930F40BEAAD634AF547A2E65CB /* onepassword-extension@2x~compact.png */,
+				CDAB3555784A9B65459EC95616D7117D /* onepassword-extension@2x~regular.png */,
+				F9DA9AA122382F93B5F015F551B45B78 /* onepassword-extension@3x~compact.png */,
+				5424FDE1A083262A1916380EAF2EA795 /* onepassword-extension~compact.png */,
+				B94144D58B3569123D49C098E7E896DE /* onepassword-extension~regular.png */,
+				0B13BB7B0AA7FC6E6BDB5DC7719C8B65 /* onepassword-navbar.png */,
+				FA45FD48EB2B53DDC48D906C2AD5A454 /* onepassword-navbar-light.png */,
+				ACA362CC78004BFFBEE6659D8A973675 /* onepassword-navbar-light@2x.png */,
+				4D64032374ECA7090DF2762C22E7521A /* onepassword-navbar-light@3x.png */,
+				564CC547325144825F8F592A699D2593 /* onepassword-navbar@2x.png */,
+				86BE112CBE293B7FA27223C7286642A7 /* onepassword-navbar@3x.png */,
+				54A2C5B85C9EB9013A56A9EBEE2B31F1 /* onepassword-toolbar.png */,
+				8B6E80639D13D96FFCC9BF0DE40EEEA9 /* onepassword-toolbar-light.png */,
+				885D0EA35361ABD5C625013C574F12CF /* onepassword-toolbar-light@2x.png */,
+				58D3B3FB201016819108C263E12D6041 /* onepassword-toolbar-light@3x.png */,
+				CED607F3A53CF1A59A34943F1A7D8873 /* onepassword-toolbar@2x.png */,
+				A6AD2E7214AFE03343EBA79CA1AF386A /* onepassword-toolbar@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7774BC1F093811F62B5E35FC9908B9D8 /* Soundcloud */ = {
+			isa = PBXGroup;
+			children = (
+				0C12907CA9F7B1AA7D1C7ECC049A8EF8 /* APIResponse.swift */,
+				3483B643E1D1F1DCC7C48C1E4AF971C5 /* App.swift */,
+				37BBE56F51EC21D949C8D827B9F20C41 /* Comment.swift */,
+				EBBB581B4F73FF16037D50593D2CF6EA /* DictionaryExtension.swift */,
+				14C0BA97AC211C05C175E59241962C0B /* Enums.swift */,
+				284C9B879ADB37B65A4FA19751613061 /* ImageURLs.swift */,
+				5CD5940EB647E7A3A97705B72B8E5016 /* NSURLExtension.swift */,
+				F30E63251B371127F603CF8D5AD9927B /* Playlist.swift */,
+				A1E1F42A6D48BF1E0FCCAE0726252DA3 /* PlaylistRequest.swift */,
+				9E0813CCA58C37528B6EDF79A9FA2D0B /* Request.swift */,
+				03B2CD160AA16063697F4C2F38191E6C /* SearchQuery.swift */,
+				4E07CB46932EDAB792D7D2D669611D0F /* Soundcloud.swift */,
+				02E2638109F01E8377590395202C58D1 /* SoundcloudWebViewController.swift */,
+				7B7406B2B5C280E446C55ACD93C119F7 /* StringExtension.swift */,
+				2F69B46C4050E82A518ED532F9F1C8AA /* Track.swift */,
+				C2F45A51CAFD98CFEEF69E3460052CBD /* TrackRequest.swift */,
+				485EAFFC476E110C622C2809298338FA /* User.swift */,
+				8E57B06A6EE1AA49F9837BB56D5712E7 /* UserRequest.swift */,
+				09F74448C4C1618B55703E7CC60DDACE /* Support Files */,
+			);
+			path = Soundcloud;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				0AE049AE24E5584D3C57857EDDA324F3 /* Frameworks */,
+				BCC00B20A971442BF5EC5431AC8E24F4 /* Pods */,
+				9C06432BF8C768CEF28D2B6FFB67C72A /* Products */,
+				FEB6DA3A41BE73288CA90BA050D95F45 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		866642F7D84329CF4B715BD11FC8E801 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				259582E88612D9FB7D3690362D8A40DE /* 1PasswordExtension.modulemap */,
+				62AE64B99907C09B879F8A70C8FAB3D9 /* 1PasswordExtension.xcconfig */,
+				EA985780E5EF2F82C5E3B32C3CE2F2B7 /* 1PasswordExtension-dummy.m */,
+				E2778D36EA964317110C01396937F9C5 /* 1PasswordExtension-prefix.pch */,
+				D19477CE2BCF31E283A6385EFCF275B2 /* 1PasswordExtension-umbrella.h */,
+				0F7D58B42F204ACA8A26EEBE78BE72A8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/1PasswordExtension";
+			sourceTree = "<group>";
+		};
+		9C06432BF8C768CEF28D2B6FFB67C72A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45141DB21BA9112F500C224F6392977 /* Jukebox.bundle */,
+				D7CCE369D209CC8113FBADE7BBE5C354 /* Jukebox.framework */,
+				25C266928F0DF615B916F32840F32D6A /* OnePasswordExtension.framework */,
+				FA0205697AE137A458CA02CA056537C6 /* OnePasswordExtensionResources.bundle */,
+				BDF7598B34E0D60DB49CB545CCB705D9 /* Pods_Jamz.framework */,
+				05EB7DA8FC27C63D7F516451B6F6C8CE /* Soundcloud.framework */,
+				47EB13AA032F76EAB541F77C04F3EFD8 /* UICKeyChainStore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3C920A9B444753BBE58A68F8E0D5DAC /* Pods-Jamz */ = {
+			isa = PBXGroup;
+			children = (
+				7B302344701E88DFF49D3DC155046686 /* Info.plist */,
+				28877D09FFC492ABC17820C9F5A3E1DB /* Pods-Jamz.modulemap */,
+				293A441D5886311744B668397BE39F86 /* Pods-Jamz-acknowledgements.markdown */,
+				C38DB53ED80A2146CC62B9451B1CC593 /* Pods-Jamz-acknowledgements.plist */,
+				A674698DC1FA65FB800AE0BC5751FC8B /* Pods-Jamz-dummy.m */,
+				EC05532D4CE278314139CFC1806F8D2B /* Pods-Jamz-frameworks.sh */,
+				A425877F4280AF3B70A7CDFFC14E1DD6 /* Pods-Jamz-resources.sh */,
+				5FAA1243C256A083D01EAAB7B3D7A713 /* Pods-Jamz-umbrella.h */,
+				D5B85BFD61077D0DF92B7DB3D7AB1F11 /* Pods-Jamz.debug.xcconfig */,
+				34C232B9A4CB4B4B997BFD85BEBA2CC1 /* Pods-Jamz.release.xcconfig */,
+			);
+			name = "Pods-Jamz";
+			path = "Target Support Files/Pods-Jamz";
+			sourceTree = "<group>";
+		};
+		BCC00B20A971442BF5EC5431AC8E24F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CCE15BBE2D90C009C063E07C1BD98D3 /* 1PasswordExtension */,
+				CFA1BD127B65232412123377D5B2D92E /* Jukebox */,
+				7774BC1F093811F62B5E35FC9908B9D8 /* Soundcloud */,
+				CF51DC9E92798B61AEAE500A7D33F82F /* UICKeyChainStore */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF51DC9E92798B61AEAE500A7D33F82F /* UICKeyChainStore */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB7CE79541ED06A771F84857A92042 /* UICKeyChainStore.h */,
+				FCE4CE4E6EC7057303DA6E71D53A07B0 /* UICKeyChainStore.m */,
+				2C2E784A8D0C7C215707E74E7880A3CA /* Support Files */,
+			);
+			path = UICKeyChainStore;
+			sourceTree = "<group>";
+		};
+		CFA1BD127B65232412123377D5B2D92E /* Jukebox */ = {
+			isa = PBXGroup;
+			children = (
+				4DE000050189AD4127BB39BABB2D62BC /* Jukebox.swift */,
+				2C216BB73EC378925872C7926D3C5C96 /* JukeboxItem.swift */,
+				21AB72AB326C15F1B5E0AD4658FF4FFC /* Support Files */,
+			);
+			path = Jukebox;
+			sourceTree = "<group>";
+		};
+		D821F5CA4776F803B4C08FB3378B3DCB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				341FC172C25A866D8B0D0A0680930F6E /* AVFoundation.framework */,
+				DFCCF3C81532FCA9726BBE30AC0CF299 /* Foundation.framework */,
+				8962FEEA3B77C728DA363C55CC80A930 /* MediaPlayer.framework */,
+				B0ADEBA2D5E45C06B432AB32713452F5 /* Security.framework */,
+				C7BB3370A610AADD81A299D4A93628FC /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FEB6DA3A41BE73288CA90BA050D95F45 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3C920A9B444753BBE58A68F8E0D5DAC /* Pods-Jamz */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		100C41AB97F1E7D191A797932EF8AF16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B2D1720CCF6A5A35163A64C96154CA /* 1PasswordExtension-umbrella.h in Headers */,
+				EAE970E887C03DE9D99C0E18036B6FA9 /* OnePasswordExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157E6A4D6827F9BB7817C05E853686DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AF46A8368350634CE945BA80A23687 /* Pods-Jamz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569816342F81FA09A001C71DE9CE3CAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852C606F9EB5F648BA26C45F8F60FB6A /* Soundcloud-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62734858E240F6C19AB0C2175CB7D0F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3487A931F7EBDEB928B6B2C1C7F6D185 /* UICKeyChainStore-umbrella.h in Headers */,
+				989BA4DFB623F61BD2185D764EE1E054 /* UICKeyChainStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A68F7D49CE714826FF0C5D223479B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2487D9DAFF7FE4E943953D6E3580D422 /* Jukebox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D8596ACCA51CFD759E56D2D1B03E820 /* Pods-Jamz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2FA793A81400182009D16D28CD7152 /* Build configuration list for PBXNativeTarget "Pods-Jamz" */;
+			buildPhases = (
+				2D333C8F6519D29AB88C645FC6B788BC /* Sources */,
+				4433198D73D5B33BB2F9DB907452E52D /* Frameworks */,
+				157E6A4D6827F9BB7817C05E853686DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEE0636A40392852A9B824501156BE4E /* PBXTargetDependency */,
+				871DDFB1D22FEF0EEC1BBED3397895D0 /* PBXTargetDependency */,
+				2BB458DC7CE0F5E1E44676D25A6E8748 /* PBXTargetDependency */,
+				BE2C71FC449305F86E9C94E3DAA3C066 /* PBXTargetDependency */,
+			);
+			name = "Pods-Jamz";
+			productName = "Pods-Jamz";
+			productReference = BDF7598B34E0D60DB49CB545CCB705D9 /* Pods_Jamz.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		914F2D3BE90F614A79B5AB1465E3CB54 /* Jukebox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8476731A3D26E6DF18F81404220ADA1 /* Build configuration list for PBXNativeTarget "Jukebox" */;
+			buildPhases = (
+				0C194F20724FBF6BC19C04BEBA9CA078 /* Sources */,
+				0F61D7C8769CEC9BF6BFD9F0451083B6 /* Frameworks */,
+				A1E453EBA2C0EDB44B2E0607ED228871 /* Resources */,
+				63A68F7D49CE714826FF0C5D223479B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C7FF8416979837C6523FAE277214FE5 /* PBXTargetDependency */,
+			);
+			name = Jukebox;
+			productName = Jukebox;
+			productReference = D7CCE369D209CC8113FBADE7BBE5C354 /* Jukebox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C19694CEAB471DC07D8CB4BFB13CACCD /* Soundcloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51DB8504135E5B66C8EA8FECA64E72FB /* Build configuration list for PBXNativeTarget "Soundcloud" */;
+			buildPhases = (
+				4456C7309F4162B9B3AD47C4CA1DCB1A /* Sources */,
+				4A45245E210A54E5E75F90FC7270D094 /* Frameworks */,
+				569816342F81FA09A001C71DE9CE3CAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58CE6DE8E2F4F065EBD9B9D1574D3ECD /* PBXTargetDependency */,
+				414559F40AA9368FFB3025C421A27F9E /* PBXTargetDependency */,
+			);
+			name = Soundcloud;
+			productName = Soundcloud;
+			productReference = 05EB7DA8FC27C63D7F516451B6F6C8CE /* Soundcloud.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8B57B89BC28E74DBA035283E73E0107 /* 1PasswordExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2CF8869B37A0420A4C5DEA1E16BD3A /* Build configuration list for PBXNativeTarget "1PasswordExtension" */;
+			buildPhases = (
+				33A69C3294284057522F5B845326BD31 /* Sources */,
+				E45CFA9B2E9B95CFED4BAE62A3B20AFF /* Frameworks */,
+				13D34B3F365181A42983CECAAC4F2ACD /* Resources */,
+				100C41AB97F1E7D191A797932EF8AF16 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC970CC919652E561DEE8924F4F30163 /* PBXTargetDependency */,
+			);
+			name = 1PasswordExtension;
+			productName = 1PasswordExtension;
+			productReference = 25C266928F0DF615B916F32840F32D6A /* OnePasswordExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9905F7BE3F9DFE2176E1141CF8E8BEE /* UICKeyChainStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DFCA77796A2BD142972D7C822339D2 /* Build configuration list for PBXNativeTarget "UICKeyChainStore" */;
+			buildPhases = (
+				EB56E9764F848CE24B96D6C50EDF9A90 /* Sources */,
+				207418FD658FFAECDBB8D5279D02CDE7 /* Frameworks */,
+				62734858E240F6C19AB0C2175CB7D0F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICKeyChainStore;
+			productName = UICKeyChainStore;
+			productReference = 47EB13AA032F76EAB541F77C04F3EFD8 /* UICKeyChainStore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8755411FBEB5C88938F94EFEB42DF28 /* Jukebox-Jukebox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D3B30E156DD8ADC46E79F04A4833A4 /* Build configuration list for PBXNativeTarget "Jukebox-Jukebox" */;
+			buildPhases = (
+				FD6CD95DCDB5A860456A7E6BCDAB9246 /* Sources */,
+				AB17F1A03CC9CEE99918B6FABD9AACF7 /* Frameworks */,
+				FF555A9CE398569296B7FBA01165191C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jukebox-Jukebox";
+			productName = "Jukebox-Jukebox";
+			productReference = C45141DB21BA9112F500C224F6392977 /* Jukebox.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FF62A25D3E480238C0D473193AB70325 /* 1PasswordExtension-OnePasswordExtensionResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF81894FFC9BC6789F1C68FCCDB017F7 /* Build configuration list for PBXNativeTarget "1PasswordExtension-OnePasswordExtensionResources" */;
+			buildPhases = (
+				9C35B1D96E09727BDE97537677DE9CA8 /* Sources */,
+				11EF961F251687F2D28E7E7F6A52456C /* Frameworks */,
+				5E2B03ED562DA2F4CEE9CF1413BD3A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1PasswordExtension-OnePasswordExtensionResources";
+			productName = "1PasswordExtension-OnePasswordExtensionResources";
+			productReference = FA0205697AE137A458CA02CA056537C6 /* OnePasswordExtensionResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9C06432BF8C768CEF28D2B6FFB67C72A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8B57B89BC28E74DBA035283E73E0107 /* 1PasswordExtension */,
+				FF62A25D3E480238C0D473193AB70325 /* 1PasswordExtension-OnePasswordExtensionResources */,
+				914F2D3BE90F614A79B5AB1465E3CB54 /* Jukebox */,
+				E8755411FBEB5C88938F94EFEB42DF28 /* Jukebox-Jukebox */,
+				2D8596ACCA51CFD759E56D2D1B03E820 /* Pods-Jamz */,
+				C19694CEAB471DC07D8CB4BFB13CACCD /* Soundcloud */,
+				D9905F7BE3F9DFE2176E1141CF8E8BEE /* UICKeyChainStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13D34B3F365181A42983CECAAC4F2ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4B151EAF5003685962E5601C55F58A /* OnePasswordExtensionResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2B03ED562DA2F4CEE9CF1413BD3A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8968C07D6412C29A06CDD21E176A8790 /* 1Password.xcassets in Resources */,
+				69C3E31732A84B840529DD362F2F3E2F /* onepassword-button-light.png in Resources */,
+				5C6B42BC007CE112E798727FE31BD878 /* onepassword-button-light@2x.png in Resources */,
+				E747D3457DA2D0D95C5C030983663674 /* onepassword-button-light@3x.png in Resources */,
+				CEAF472964979C3218CF0AFB20703306 /* onepassword-button.png in Resources */,
+				5BFDD4A46F87D54A47D92ABF2F894F6C /* onepassword-button@2x.png in Resources */,
+				CED79DE801DE133B9FC1E7716D65EBF5 /* onepassword-button@3x.png in Resources */,
+				F3E5C62D72C98FEDEDA619582108B1D7 /* onepassword-extension-light@2x~compact.png in Resources */,
+				5C33495C74FBC9D432B795F9ACC9DFF6 /* onepassword-extension-light@2x~regular.png in Resources */,
+				03162F6FBBFF4775606AFC6444A3C7BC /* onepassword-extension-light@3x~compact.png in Resources */,
+				84170A779E7E5BFB8711667B43522EDA /* onepassword-extension-light~compact.png in Resources */,
+				410EA55906BCBD2E9BCB3746D0BB987B /* onepassword-extension-light~regular.png in Resources */,
+				B11B7A22C629F8C1136E77515B2CDA02 /* onepassword-extension@2x~compact.png in Resources */,
+				0FBB724B8B2A45186D369029D8ACDB44 /* onepassword-extension@2x~regular.png in Resources */,
+				E35C17E5C254DD854CDB3A05B1F3A98A /* onepassword-extension@3x~compact.png in Resources */,
+				9DE39E915B1BD1524E76A6D46E552776 /* onepassword-extension~compact.png in Resources */,
+				B54289A84A48604EE38881A0E071AD48 /* onepassword-extension~regular.png in Resources */,
+				CA055F7C7C352B1A1E177863F0AF11B6 /* onepassword-navbar-light.png in Resources */,
+				0F83E9950D54B3325FBCD9102BA9130B /* onepassword-navbar-light@2x.png in Resources */,
+				81FB4787BB9DC7A6793401091F545360 /* onepassword-navbar-light@3x.png in Resources */,
+				DF0E4A2B45545137FB5294B838EE6A49 /* onepassword-navbar.png in Resources */,
+				C32CF4DD337DE89B987C6119D8E74710 /* onepassword-navbar@2x.png in Resources */,
+				A9C8BBD485B6AE706640E9EA9249D39B /* onepassword-navbar@3x.png in Resources */,
+				CC5FEAEB89DE59D36D674D0E9D52428C /* onepassword-toolbar-light.png in Resources */,
+				B61B8ACD7135223233EA574580E3B040 /* onepassword-toolbar-light@2x.png in Resources */,
+				CB4A7A09049C12437382BB51FB2B519A /* onepassword-toolbar-light@3x.png in Resources */,
+				0A49140678241829867000A84E017BF8 /* onepassword-toolbar.png in Resources */,
+				A7E8FB4E56812F86EC0AD7535003E6D3 /* onepassword-toolbar@2x.png in Resources */,
+				8161C5BAC6975FCDF19BD18736CBE107 /* onepassword-toolbar@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E453EBA2C0EDB44B2E0607ED228871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D926FB7FB8DD8730060886BAF24CA93D /* Jukebox.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF555A9CE398569296B7FBA01165191C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C194F20724FBF6BC19C04BEBA9CA078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9011BBFD2412EF953E6EAA0042C5956 /* Jukebox-dummy.m in Sources */,
+				AF43BD13810A278AA11F311CDFFB0482 /* Jukebox.swift in Sources */,
+				6DE8C1B9466C946DB1F1EB846C18E9B6 /* JukeboxItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D333C8F6519D29AB88C645FC6B788BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6136D48095CD2C2B623ABD9037D1AECF /* Pods-Jamz-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A69C3294284057522F5B845326BD31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E146B96CC76C574C55174CB934C049 /* 1PasswordExtension-dummy.m in Sources */,
+				E7C7A7317124A1FEA09C8DFB95FACE7B /* OnePasswordExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4456C7309F4162B9B3AD47C4CA1DCB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660D72B8915E0A997695B35FA4C8A99A /* APIResponse.swift in Sources */,
+				CB4A8B7369D53DC365EABB49C9965467 /* App.swift in Sources */,
+				B018368A3003BBC1A422FE6B8829397F /* Comment.swift in Sources */,
+				A07611C3689C772C498992BD7905E761 /* DictionaryExtension.swift in Sources */,
+				2DE4A2319C38BC2CC7081CD9C954647E /* Enums.swift in Sources */,
+				059F873D92D7CD979212EC29325597F0 /* ImageURLs.swift in Sources */,
+				EA5019E6F9998E6BD21793807BA3AC40 /* NSURLExtension.swift in Sources */,
+				8A67A693A3F35339210C58212D50067F /* Playlist.swift in Sources */,
+				31998335D5F2B89DE7EA7F91BBE73DE0 /* PlaylistRequest.swift in Sources */,
+				1EBE02F16629B528CB5926AA066246E5 /* Request.swift in Sources */,
+				0CA67E92FACBD3C62B97EABC0B4E025E /* SearchQuery.swift in Sources */,
+				76A390F4C3B9A6DCF5BCB552AB906408 /* Soundcloud-dummy.m in Sources */,
+				A35D0CCE9F9550EB9DD5BAFBC36F5F13 /* Soundcloud.swift in Sources */,
+				719D93DEAF3C86E9126164BA373B944A /* SoundcloudWebViewController.swift in Sources */,
+				C17E8624E2C4964440191C5A6F37F324 /* StringExtension.swift in Sources */,
+				064983F828C081E0EFBD9EC9F60664D1 /* Track.swift in Sources */,
+				D42999A5684D3281051C1F65897A1126 /* TrackRequest.swift in Sources */,
+				424CD57EF0A830583695A09076F34686 /* User.swift in Sources */,
+				9670ED988B97C6B19B7D44C20EFF6830 /* UserRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C35B1D96E09727BDE97537677DE9CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB56E9764F848CE24B96D6C50EDF9A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9131D2E6BE6FDA0449205E59C5DF8F /* UICKeyChainStore-dummy.m in Sources */,
+				434D9098FF0582F0FE5114A7E56EA4A6 /* UICKeyChainStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6CD95DCDB5A860456A7E6BCDAB9246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB458DC7CE0F5E1E44676D25A6E8748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Soundcloud;
+			target = C19694CEAB471DC07D8CB4BFB13CACCD /* Soundcloud */;
+			targetProxy = B79108ED96D1A0F19EA18860A4281573 /* PBXContainerItemProxy */;
+		};
+		2C7FF8416979837C6523FAE277214FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Jukebox-Jukebox";
+			target = E8755411FBEB5C88938F94EFEB42DF28 /* Jukebox-Jukebox */;
+			targetProxy = C9712C482C056463A252EC756A806954 /* PBXContainerItemProxy */;
+		};
+		414559F40AA9368FFB3025C421A27F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICKeyChainStore;
+			target = D9905F7BE3F9DFE2176E1141CF8E8BEE /* UICKeyChainStore */;
+			targetProxy = AF4731718B139A7626CFBC1BC8925035 /* PBXContainerItemProxy */;
+		};
+		58CE6DE8E2F4F065EBD9B9D1574D3ECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = 1PasswordExtension;
+			target = D8B57B89BC28E74DBA035283E73E0107 /* 1PasswordExtension */;
+			targetProxy = 6984F60C90A2E9A87A1EF94713DB5FDB /* PBXContainerItemProxy */;
+		};
+		871DDFB1D22FEF0EEC1BBED3397895D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Jukebox;
+			target = 914F2D3BE90F614A79B5AB1465E3CB54 /* Jukebox */;
+			targetProxy = AD429E31172FA39CB8988F44607599D6 /* PBXContainerItemProxy */;
+		};
+		AEE0636A40392852A9B824501156BE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = 1PasswordExtension;
+			target = D8B57B89BC28E74DBA035283E73E0107 /* 1PasswordExtension */;
+			targetProxy = 25DAD266284F8D445C0BB60A2F77950A /* PBXContainerItemProxy */;
+		};
+		BE2C71FC449305F86E9C94E3DAA3C066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICKeyChainStore;
+			target = D9905F7BE3F9DFE2176E1141CF8E8BEE /* UICKeyChainStore */;
+			targetProxy = E1A6DAA41F08612FBF23698F720BA43C /* PBXContainerItemProxy */;
+		};
+		EC970CC919652E561DEE8924F4F30163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "1PasswordExtension-OnePasswordExtensionResources";
+			target = FF62A25D3E480238C0D473193AB70325 /* 1PasswordExtension-OnePasswordExtensionResources */;
+			targetProxy = 921AB2F74EA95232D72B0C59252E2B31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2144AE31F2E669225A9B6C33AEC3D9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C232B9A4CB4B4B997BFD85BEBA2CC1 /* Pods-Jamz.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Jamz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jamz/Pods-Jamz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Jamz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25B32E2305EAFB0E4776BB6A41AAA648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AE64B99907C09B879F8A70C8FAB3D9 /* 1PasswordExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/1PasswordExtension/1PasswordExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OnePasswordExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		318FEEF3DE33D01892B29698729261D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B1603BA99D5C8E4E233F28931BE4AA6 /* Soundcloud.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Soundcloud/Soundcloud-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Soundcloud/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Soundcloud/Soundcloud.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Soundcloud;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CC7B67D1C6176CEBE93BBC03D419F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AE64B99907C09B879F8A70C8FAB3D9 /* 1PasswordExtension.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OnePasswordExtensionResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		645B2F5E4DF733FE339E5A1EA1D2885E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AE586D8BCC9C0C5A60F98F409B247A /* Jukebox.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Jukebox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6608B3B0BE2124E619354FD43147D2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B1603BA99D5C8E4E233F28931BE4AA6 /* Soundcloud.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Soundcloud/Soundcloud-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Soundcloud/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Soundcloud/Soundcloud.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Soundcloud;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AD820346143D5F5384CE2F865776FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AE586D8BCC9C0C5A60F98F409B247A /* Jukebox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Jukebox/Jukebox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Jukebox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Jukebox/Jukebox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Jukebox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		856EDD7B3682B515581982DB8B01B478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AE586D8BCC9C0C5A60F98F409B247A /* Jukebox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Jukebox/Jukebox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Jukebox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Jukebox/Jukebox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Jukebox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A8B1710D3DA03D164350C07DA303185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AE586D8BCC9C0C5A60F98F409B247A /* Jukebox.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Jukebox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8EE9E670E309400428C4B7C4D6C842FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F59A65FB10B6BE8B96189F5A94EC38B /* UICKeyChainStore.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UICKeyChainStore/UICKeyChainStore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICKeyChainStore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICKeyChainStore/UICKeyChainStore.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UICKeyChainStore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98E756ABC2FC4B21AE6D671C6ACF035A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F59A65FB10B6BE8B96189F5A94EC38B /* UICKeyChainStore.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UICKeyChainStore/UICKeyChainStore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICKeyChainStore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICKeyChainStore/UICKeyChainStore.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UICKeyChainStore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DA202A06FEEFCA2C8BE28B148639F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AE64B99907C09B879F8A70C8FAB3D9 /* 1PasswordExtension.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OnePasswordExtensionResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF0F4D6753248EF15A8EF792348F6F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B85BFD61077D0DF92B7DB3D7AB1F11 /* Pods-Jamz.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Jamz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jamz/Pods-Jamz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Jamz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF270C00BC0184F5A9EB32E079599A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AE64B99907C09B879F8A70C8FAB3D9 /* 1PasswordExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/1PasswordExtension/1PasswordExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/1PasswordExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/1PasswordExtension/1PasswordExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OnePasswordExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2CF8869B37A0420A4C5DEA1E16BD3A /* Build configuration list for PBXNativeTarget "1PasswordExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF270C00BC0184F5A9EB32E079599A1F /* Debug */,
+				25B32E2305EAFB0E4776BB6A41AAA648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51DB8504135E5B66C8EA8FECA64E72FB /* Build configuration list for PBXNativeTarget "Soundcloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318FEEF3DE33D01892B29698729261D9 /* Debug */,
+				6608B3B0BE2124E619354FD43147D2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D3B30E156DD8ADC46E79F04A4833A4 /* Build configuration list for PBXNativeTarget "Jukebox-Jukebox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8B1710D3DA03D164350C07DA303185 /* Debug */,
+				645B2F5E4DF733FE339E5A1EA1D2885E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF81894FFC9BC6789F1C68FCCDB017F7 /* Build configuration list for PBXNativeTarget "1PasswordExtension-OnePasswordExtensionResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC7B67D1C6176CEBE93BBC03D419F66 /* Debug */,
+				9DA202A06FEEFCA2C8BE28B148639F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DFCA77796A2BD142972D7C822339D2 /* Build configuration list for PBXNativeTarget "UICKeyChainStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E756ABC2FC4B21AE6D671C6ACF035A /* Debug */,
+				8EE9E670E309400428C4B7C4D6C842FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8476731A3D26E6DF18F81404220ADA1 /* Build configuration list for PBXNativeTarget "Jukebox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD820346143D5F5384CE2F865776FF8 /* Debug */,
+				856EDD7B3682B515581982DB8B01B478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2FA793A81400182009D16D28CD7152 /* Build configuration list for PBXNativeTarget "Pods-Jamz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0F4D6753248EF15A8EF792348F6F54 /* Debug */,
+				2144AE31F2E669225A9B6C33AEC3D9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
